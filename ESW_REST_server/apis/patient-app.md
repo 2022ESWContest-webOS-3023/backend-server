@@ -7,7 +7,6 @@
 
 설명: 카카오 로그인으로부터 얻은 정보를 서버에 전송하여 DB에 저장한다. 중복 유저 확인을 위해 kakaoId를 통해 중복 체크를 함.
 
-전송 예시
 ```
 
 URL: {baseurl}/api/register/kakao
