@@ -10,7 +10,7 @@ npx sequelize db:create
 
 ### Make Users Model
 ```
-npx sequelize-cli model:generate --name User --attributes age:string,email:string,gender:string,nickname:string,kakao_id:string
+npx sequelize-cli model:generate --name User --attributes age:string,email:string,gender:string,nickname:string,kakaoId:string
 ```
 
 ##### Kakao User Information Example

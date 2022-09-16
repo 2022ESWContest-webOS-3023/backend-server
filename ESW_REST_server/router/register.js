@@ -3,7 +3,7 @@ const app = express();
 const router = express.Router();
 const {User} = require('../models');
 
-router.post("/kakao", (req, res) => {
+router.post("/kakao", (req, res, next) => {
     console.log(req.body);
     User.create(req.body)
     .then((users) => {
@@ -12,8 +12,8 @@ router.post("/kakao", (req, res) => {
     .catch((err) => {
         console.error(err);
         next(err);
+        res.json(req.body);
     });
-    res.json(req.body);
 });
 
 module.exports = router;

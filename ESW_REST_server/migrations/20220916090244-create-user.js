@@ -20,7 +20,7 @@ module.exports = {
       nickname: {
         type: Sequelize.STRING
       },
-      kakao_id: {
+      kakaoId: {
         type: Sequelize.STRING
       },
       createdAt: {
