@@ -17,9 +17,6 @@ module.exports = {
       gender: {
         type: Sequelize.STRING
       },
-      id: {
-        type: Sequelize.INTEGER
-      },
       nickname: {
         type: Sequelize.STRING
       },

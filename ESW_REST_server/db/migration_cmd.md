@@ -1,6 +1,6 @@
 ### User table
 ```
-npx sequelize-cli model:generate --name User --attributes age:string,email:string,gender:string,id:integer,nickname:string
+npx sequelize-cli model:generate --name User --attributes age:string,email:string,gender:string,nickname:string
 ```
 
 #### ex
